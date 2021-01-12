@@ -1,0 +1,35 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.brand{
+    height: 4em;
+    margin-right: 1em;
+    margin-left: 2em;
+}
+
+div button{
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.jumbotron{
+    height: 50%;
+}
+
+.card-img{
+    height: 75%;
+    width: 100%;
+}
+
+.card{
+    border-width: 0;
+}
+
+.teacher{
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+}
