@@ -9,7 +9,7 @@ body{
 .jumbotron{
     max-width: 100%;
     color: white;
-    background-image: url("./images/UniConn\ -\ instagram\ 1.png");
+    background-image: url("../images/UniConn\ -\ instagram\ 1.png");
 }
 
 .brand{
@@ -51,7 +51,7 @@ hr{
 }
 
 .college{
-    background-image: url("./images/Rectangle\ 1.png");
+    background-image: url("../images/Rectangle\ 1.png");
     margin-top: 14.5%;
     width: 75%;
     margin-left: 13%;
