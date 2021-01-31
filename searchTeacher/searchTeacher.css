@@ -8,7 +8,7 @@ body{
     margin-left: 2em;
 }
 
-div button{
+.leftHand button{
     width: 100%;
 }
 
@@ -16,16 +16,11 @@ div button{
     color: black;
 }
 
-.jumbotron{
-    height: 25%;
+.searchBar{
+    height: 8em;
 }
 
-.card-img{
-    height: 75%;
-    width: 75%;
-}
-
-.card{
+.card-ind{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     padding-left: 1em;
@@ -34,4 +29,21 @@ div button{
 .teacher{
     border-bottom: 0.5px solid black;
     border-top: 0.5px solid black;
+}
+
+.individualCard{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.card-body__insides{
+    width: 105%;
+}
+
+.card-body__imageProfile{
+    width: 20%;
+    height: 20%;
 }

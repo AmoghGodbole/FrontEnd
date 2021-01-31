@@ -11,105 +11,106 @@
     <title>Search Teacher</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img class="brand" src="../images/IMG_0725 1.png" >
-            <a class="navbar-brand" href="#">UniConn.in</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item my-1 my-lg-0">
-                  <a class="nav-link btn btn-primary" href="#">My Profile</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
-    </div>
-
-    <div class="container">
-        <div class="row mt-2 cover">
-            <div class="col-md-3">
-                <div class="my-2">
-                    <button class="btn btn-outline-primary">
-                        Conversations
-                    </button>
+    <div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <img class="brand" src="../images/IMG_0725 1.png" >
+                <a class="navbar-brand" href="#">UniConn.in</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item my-1 my-lg-0">
+                      <a class="nav-link btn btn-primary" href="#">My Profile</a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="my-2">
-                    <button class="btn btn-outline-primary">
-                        Find Teachers
-                    </button>
+            </nav>
+        </div>
+    
+        <div class="container">
+            <div class="row mt-2">
+                <div class="col-md-3 sidebar">
+                    <div class="my-2">
+                        <button class="btn btn-outline-primary">
+                            Conversations
+                        </button>
+                    </div>
+                    <div class="my-2">
+                        <button class="btn btn-outline-primary">
+                            Find Teachers
+                        </button>
+                    </div>
+                    <div class="my-2">
+                        <button class="btn btn-outline-primary">
+                            Find Students
+                        </button>
+                    </div>
+                    <div class="my-2">
+                        <button class="btn btn-outline-primary">
+                            Forums
+                        </button>
+                    </div>
                 </div>
-                <div class="my-2">
-                    <button class="btn btn-outline-primary">
-                        Find Students
-                    </button>
-                </div>
-                <div class="my-2">
-                    <button class="btn btn-outline-primary">
-                        Forums
-                    </button>
-                </div>
-            </div>
-
-            <div class="col-md-9 profile">
-                <div class="profile-img">
-                    <img src="images/Rectangle 112.png" class="pfp">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h4 class="mt-3">Reena Sonkusare</h4> 
-                            <span><button class="btn btn-outline-primary">Edit Profile</button></span>
-                            <p>Assistant Professor at EXTC Branch</p>
-                            <p>Sardar Patel Institute Of Technology</p>
-                            <p>Mumbai, Maharashtra</p>
-                            <p>19+ Years Of Experience</p>
-                            <h4 class="mt-3">About Me</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque autem qui quasi porro voluptatum ut delectus officia perferendis a recusandae. Sed ipsam porro provident dolor dignissimos pariatur ut, quam consectetur tenetur molestias quae! Illo in minima eos...</p>
-                            <a class="show-more">Show More...</a>
-                            <!-- <hr > -->
-                            <strong><p class="mt-3">Fields Of Interest</p></strong>
-                            <!-- Use a for loop here -->
-                            <p>VLSI</p>
-                            <p>Embedded systems</p>
-                            <p>eefnb</p>
-                        </div>
-                        <div class="col-lg-3 text-center mt-4">
-                            <h4>TEACHING</h4>
-                            <small>(23 Ratings)</small>
-                            <strong><p>Average</p></strong>
-                            <!-- You will have to add some logic to make this work -->
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                  <span class="sr-only">70% Complete</span>
-                                </div>
+    
+                <div class="col-md-9 profile">
+                    <div class="profile-img">
+                        <img src="../images/Rectangle 112.png" class="pfp">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h4 class="mt-3">Reena Sonkusare</h4> 
+                                <span><button class="btn btn-outline-primary profile__btn mb-2">Edit Profile</button></span>
+                                <p class="profile__p">Assistant Professor at EXTC Branch</p>
+                                <p class="profile__p">Sardar Patel Institute Of Technology</p>
+                                <p class="profile__p">Mumbai, Maharashtra</p>
+                                <p class="profile__p">19+ Years Of Experience</p>
+                                <h4 class="mt-3">About Me</h4>
+                                <p class="profile__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque autem qui quasi porro voluptatum ut delectus officia perferendis a recusandae. Sed ipsam porro provident dolor dignissimos pariatur ut, quam consectetur tenetur molestias quae! Illo in minima eos</p>
+                                <!-- <a class="show-more">Show More...</a> -->
+                                <!-- <hr > -->
+                                <strong><p class="mt-3 profile__p">Fields Of Interest</p></strong>
+                                <!-- Use a for loop here -->
+                                <p class="profile__p">VLSI</p>
+                                <p class="profile__p">Embedded systems</p>
+                                <p class="profile__p">eefnb</p>
                             </div>
-                            <h4 class="mt-3">PROJECT MENTOR</h4>
-                            <small>(15 Ratings)</small>
-                            <strong><p>Average</p></strong>
-                            <!-- You will have to add some logic to make this work -->
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                  <span class="sr-only">70% Complete</span>
+                            <div class="col-lg-3 text-center mt-4">
+                                <h4>TEACHING</h4>
+                                <small>(23 Ratings)</small>
+                                <strong><p class="profile__p">Average</p></strong>
+                                <!-- You will have to add some logic to make this work -->
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                      <span class="sr-only">70% Complete</span>
+                                    </div>
                                 </div>
+                                <h4 class="mt-3">PROJECT MENTOR</h4>
+                                <small>(15 Ratings)</small>
+                                <strong><p class="profile__p">Average</p></strong>
+                                <!-- You will have to add some logic to make this work -->
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                      <span class="sr-only">70% Complete</span>
+                                    </div>
+                                </div>
+                                <h5 class="mt-3">ADMINISTRATION</h5>
+                                <small>(15 Ratings)</small>
                             </div>
-                            <h5 class="mt-3">ADMINISTRATION</h5>
-                            <small>(15 Ratings)</small>
-                        </div>
-                        <div class="col-lg-3 text-lg-right mt-3">
-                            <h3>Projects?</h3>
-                            <!-- You will have to render the projects here -->
+                            <div class="col-lg-3 text-lg-right mt-3">
+                                <h3>Projects?</h3>
+                                <!-- You will have to render the projects here -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            
         </div>
     </div>
+    
 
 
 

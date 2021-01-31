@@ -1,0 +1,116 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+/* HEADER CSS STARTS */
+
+.mainLayout{
+    background-color: rgb(236, 234, 234);
+}
+
+.brand{
+    height: 5em;
+    margin-right: 1em;
+    margin-left: 2em;
+}
+
+.active{
+    border-bottom: 2px solid rgb(20, 160, 224);
+}
+
+/* HEADER CSS ENDS */
+
+.innerJumbo{
+    width: 70%;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.btn-lg{
+    width: 70%;
+    margin-top: 1rem;
+    margin-left: 15%;
+    border-radius: 30px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+#find{
+    font-size: 3.5em;
+}
+
+.teachersList{
+    /* width: 60%; */
+    margin-left: 4%;
+    font-weight: bold;
+}
+
+span{
+    width: 50%;
+}
+
+span img{
+    width: 10%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.middle{
+    margin-top: 5rem;
+    padding-right: 5em;
+    padding-left: 5em;
+}
+
+#middlePic{
+    padding-top: 5em;
+}
+
+
+/* FOOTER CSS STARTS */
+
+.vertical{
+    border-left: 3px solid lightgray; 
+    height: 19.1rem; 
+    position:absolute; 
+    left: 50%; 
+}
+
+.college{
+    background-image: url("../images/Rectangle\ 1.png");
+    border-radius: 20px;
+    margin-top: 14.5%;
+    width: 85%;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.submit{
+    width: 100%;
+}
+
+.inps{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    background-color: lightgray;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

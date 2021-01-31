@@ -18,9 +18,9 @@ body{
     margin-left: 2em;
 }
 
-img + h3{
+/* img + h3{
     margin-top: 10px;
-}
+} */
 
 .navbar-brand{
     font-size: 2em;
